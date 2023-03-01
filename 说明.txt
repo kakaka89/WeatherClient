@@ -1,0 +1,14 @@
+socket | 基于C语言的天气客户端的实现
+
+参考网站：https://blog.51cto.com/u_15244533/2855861
+
+天气客户端实现的要点
+
+心知天气：www.seniverse.com
+这里的心知天气的IP是116.62.81.138，端口是80，传输方式是TCP
+密钥：SLWyxL5MC23V315IT
+
+
+windows命令下用gcc编译
+编译命令：gcc weather_client.c cJSON.c utf8togbk.c -o weather_client.exe -lwsock32
+

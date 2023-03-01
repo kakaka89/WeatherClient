@@ -1,0 +1,2 @@
+# WeatherClient
+基于TCP的一个HTTP天气客户端的实现，通过输入拼音获取城市天气
